@@ -1,0 +1,244 @@
+/********** Template CSS **********/
+:root {
+    --primary: #342987;
+    --secondary: #11093c;
+    --light: #FFFFFF;
+    --dark: #171616;
+}
+.bg-primary1{
+    background-color:#342987 !important;
+    color: #342987 !important;
+}
+.text-primary1{
+    color: #342987 !important;
+}
+.bg-secondary1{
+    background-color: #746e78;
+    color: #11093c;
+}
+.text-secondary1{
+    color: #11093c;
+
+}
+
+
+
+body{
+   background: #eae6e6 !important;
+}
+
+h1,h2,h3,h4,h5{
+   font-family: 'Pacifico';
+}
+p{
+   text-align: justify;
+   line-height: 30px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   padding-right: 5px;
+   font-size: 18px;
+   color: rgb(146, 141, 141);
+}
+
+
+/* topbar */
+
+/* .border-inner::before {
+   position: absolute;
+   content: "";
+   top: 10px;
+   right: 520px;
+   bottom: 743px;
+   left: 518px;
+   background: none;
+   border: 6px solid var(--primary);
+   z-index: 0;
+} */
+
+/* navbar */
+
+
+.fa-magnifying-glass{
+   position: relative;
+    left: 100px;
+    top: 33px
+}
+@media(max-width:1080px){
+   .a1{
+      display: none !important;
+   }
+   .fa-magnifying-glass{
+      display: none !important;
+   }
+}
+
+.a{
+   margin: -66px -96px;
+   font-size: 32px;
+   padding-left: 212px;
+   padding-top: 86px;
+}
+
+@media(max-width:1400px){
+   .a{
+      display: none !important;
+   }
+}
+   
+.navbar-dark .navbar-nav li:hover {
+      padding: 0px 10px;
+   
+}
+.navbar-dark .navbar-nav li a{
+   color: #fff !important;
+   font-weight: 600;
+   font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .dropdown-item{
+   color: black !important;
+   font-weight: 600;
+   font-size: 20px;
+}
+
+
+/* collection */
+
+.bg-women{
+   background-image: url(https://images.bewakoof.com/uploads/grid/app/DOTW-Split-banner-Desktop-Men-1676351123.jpg);
+   width: 100%;
+   height: 400px;
+   background-size: cover;
+   margin-top: -120px;
+   margin-bottom: 100px;
+   position: relative;
+   /* position: relative;
+   top: -100px;
+   left: 15px; */
+ }
+ .bg-men{
+   background-image: url(https://images.bewakoof.com/uploads/grid/app/DOTW-Split-banner-Desktop-WOmen-1676351124.jpg);
+   width: 100%;
+   height: 400px;
+   background-size: cover;
+   margin-top: -120px;
+   margin-bottom: 100px;
+   position: relative;
+   /* position: relative;
+   top: -100px;
+   right: 15px; */
+ }
+ 
+ @media(max-width:800px){
+   .gx-0{
+      margin-top: 150px !important;
+      height: 300px !important;
+      margin-bottom: 500px;
+   }
+
+ }
+
+
+ /* welcome */
+
+ .img{
+   width: 80%;
+ }
+@media(max-width:575px){
+   .img{
+       width: 100%;
+   }
+}
+
+ /* experience */
+
+ .why{
+   height: 400px;
+ }
+ 
+ @media(max-width:765px){
+   .why{
+        /* background: rgb(16 199 177); */
+        height: 500px;
+        margin-bottom: -40px !important;
+ }
+ }
+ @media(max-width:570px){
+   .why{
+        /* background: rgb(16 199 177); */
+        height: 620px;
+        margin-bottom: -40px !important;
+ }
+ }
+
+
+
+ /* footer css */
+
+ .img1{
+   background: url(https://demowebsite12.netlify.app/img/footer.png) center bottom no-repeat;
+   opacity:1;
+   margin-top: 100px;
+   /* color: white;
+   height:400px;
+     width:100%; */
+}
+.ts1{
+   height: 400px;
+   opacity:0.9;
+}
+
+.nl{
+   margin-top: -50px !important;
+   margin-bottom: -54px;
+   padding-top: 101px !important;
+}
+  .line-height{
+   line-height: 2;
+}
+
+
+ @media(max-width:900px)
+ {
+   .banner{
+           height: 400px;
+      }
+ }
+
+
+
+ /* footer media query */
+
+ @media(max-width:990px){
+   .img1{
+      width: 100%;
+      height: 945px;
+   }
+   .ts1{
+       background-color: rgb(16, 199, 177);
+       height: 945px;
+       width:100%;
+       opacity:0.9;
+    }
+   .nl{
+          margin-top: 0px !important;
+          margin-bottom: -51px;
+          padding: 334px 64px !important;
+    }
+ }
+ @media(max-width:775px){
+   .img1{
+      width: 100%;
+      height: 1260px;
+   }
+   .ts1{
+       background-color: rgb(16, 199, 177);
+       height: 1260px;
+       width:100%;
+       opacity:0.9;
+    }
+   .nl{
+          margin-top: 21px;
+          padding: 48px!important;
+    }
+ }
